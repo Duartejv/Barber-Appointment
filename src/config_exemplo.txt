@@ -1,0 +1,5 @@
+nome_do_banco
+usuario
+senha
+localhost
+5432
