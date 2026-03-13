@@ -63,6 +63,9 @@ Barber-Appointment
 
 O sistema utiliza **PostgreSQL** para armazenar os agendamentos.
 
+### Modelo Relacional
+![Diagrama Relacional](docs/diagrama_uml.png)
+
 Execute o script SQL:
 
 ```sql
