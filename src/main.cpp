@@ -9,9 +9,10 @@ using namespace std;
 int main() {
     string dbname, user, password, host, port;
 
-    ifstream arq("./config.txt");
+    // colocar aqui o mesmo nome do arquivo com as configuraçoes do sql
+    ifstream arq("./config_exemplo.txt");
     if (!arq.is_open()) {
-        cout << "Erro ao abrir config.txt" << endl;
+        cout << "Erro ao abrir config_exemplo.txt" << endl;
         return 1;
     }
 
